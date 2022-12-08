@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BADAX FEST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav id="nav">
+            <div class="navImg">
+                <img src="logo.png" alt="">
+            </div>
+            <ul>
+                <li><a onclick="getHome()">Home</a></li>
+                <li>&#8226;</li>
+                <li><a onclick="getDate()">Date</a></li>
+                <li>&#8226;</li>
+                <li><a onclick="getArtist()">Artist</a></li>
+                <li>&#8226;</li>
+                <li><a onclick="getPrice()">Price</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="home">
+        <div>
+            <h1>BADAX MUSIC FESTIVAL 2022</h1>
+            <p>just a music festival.</p>
+        </div>
+    </div>
+    <main>
+        <div id="content">
+            <article id="date" class="card">
+                <h2>WHEN IS THE FESTIVAL?</h2>
+                <p>The festival will be held on 25th of December 2022.
+                    They said, the party will start when the sun is gone, and end when the sun comes back.
+                </p>
+            </article>
+            <article id="artist" class="card">
+                <h2>WHO'S GONNA BE IN THE FESTIVAL?</h2>
+                <p>There will be many famous artist that will perform in this party. Sadly, we still cant tell who it is.
+                    But the good thing is, you can still buy the pre-sale ticket for less price. The pre-sale ticket will be available untill the first artist announced.
+                    So what are you waiting for? Go grab the pre-sale ticket and join the hype!
+                </p>
+            </article>
+            <article id="price" class="card">
+                <h2>HOW MUCH IS THE TICKET PRICE?</h2>
+                <p>There are several types of ticket that will be available to purchase.
+                </p>
+                <div class="row">
+                    <div class="ticketCard">
+                        <h3>PRE-SALE</h3>
+                        <p>Rp. 500.000,00</p>
+                    </div>
+                    <div class="ticketCard">
+                        <h3>NORMAL PEEPS</h3>
+                        <p>Rp. 800.000,00</p>
+                    </div>
+                    <div class="ticketCard">
+                        <h3>VIP BABY</h3>
+                        <p>Rp. 1.500.000,00</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <aside>
+            <article class="profile card">
+                <header>
+                    <h2>Profile</h2>
+                    <figure>
+                        <img src="min-pas.jpg" alt="">
+                    </figure>
+                </header>
+                <section class="info">
+                    <table>
+                        <tr>
+                            <th>Name</th>
+                            <td>Mohammad Rafi Azzaky</td>
+                        </tr>
+                        <tr>
+                            <th>From</th>
+                            <td>Jakarta</td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Submission Tugas Akhir Course Pemrograman Web Dasar Dicoding &copy; 2022, Mohammad Rafi Azzaky</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
