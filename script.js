@@ -5,7 +5,6 @@ window.onresize = getHeadHeight;
 function getHeadHeight(){
     headHeight = head.offsetHeight;
     yOffset = headHeight * -1 - 6;
-    console.log(headHeight)
 ;}
 
 function getHome(){
